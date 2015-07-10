@@ -16,7 +16,6 @@ if(mac == TRUE) {
 }
 require(stringr)
 video_dir = paste(str_match(master_dir, "(.+)/audio_cluster")[, 2], "/video_cluster", "/video", year, sep = "")
-video_dir
 audio_dir = paste(master_dir, "/audio", year, sep = "")
 
 # --------------------------------------------
