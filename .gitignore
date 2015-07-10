@@ -1,4 +1,6 @@
 *.txt
 *.RData
 *.Rhistory
+*.mdb
+*.csv
 /audioSTRS2013
